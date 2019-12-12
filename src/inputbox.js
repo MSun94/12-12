@@ -9,6 +9,8 @@ class InputBox extends React.Component{
     constructor(props){
         super(props);
         this.myRef = React.createRef();
+
+        
     } 
     //Get props from parent component
     //using getDerivedStateFromProps life cycle hook, to check if the prop has changed
